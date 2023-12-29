@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap");
+
+.errormessage{
+  color: red;
+}
+
+.first-layer {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background: transparent
+    radial-gradient(
+      closest-side at 30% 59%,
+      #d5e9ed 20%,
+      #abe4e8 36%,
+      #7ddfe2 65%,
+      #61dcdf 70%,
+      #57dbde 79%,
+      #45b0b2 106%,
+      #3f9fa1 150%
+    )
+    0% 0% no-repeat padding-box;
+}
+.second-layer {
+  position: absolute;
+  margin-top: 9.5%;
+  height: 80vh;
+  width: 60vw;
+  background: transparent url("Group\ 274.svg") 45% 50% no-repeat padding-box;
+}
+.third-layer {
+  height: 100%;
+  width: 110%;
+  position: absolute;
+  z-index: 5;
+  /* background: blanchedalmond url("Group\ 537.png") 25% 0% no-repeat padding-box; */
+  background-color: transparent;
+  background-image: url(Group\ 537.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.loginpage {
+  height: 63vh;
+  width: 33vw;
+  position: absolute;
+  margin: 0% 0% 0% 93.5%;
+  z-index: -100;
+  border-radius: 31px;
+  background-color: whitesmoke;
+}
+.loginpage-heading {
+  font: normal normal bold 48px/74px "Sofia pro", sans-serif;
+  text-align: center;
+  color: #3f9fa1;
+  margin-top: 10%;
+}
+
+.first-field-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+}
+
+.Numberormail {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+}
+
+.Numberormail::placeholder {
+  font-size: 18px;
+  color: #a4a5a8;
+  font-family: "Sofia pro", sans-serif;
+  padding-left: 20px;
+}
+
+.second-field-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 8% !important;
+}
+.password {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+}
+
+.password::placeholder {
+  font-size: 18px;
+  color: #a4a5a8;
+  font-family: "Sofia pro", sans-serif;
+  padding-left: 20px;
+}
+
+.login-btn-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 8% !important;
+}
+
+.login-btn {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #36898b;
+  font-size: 25px;
+}
+
+.login-page-text {
+  margin: 2% 0% 0% 23%;
+}
+
+.register-loginpage {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+/* register-page  */
+
+.register-page {
+  height: 89.7vh;
+  width: 33vw;
+  position: absolute;
+  margin: -10% 0% 0% 94.5%;
+  z-index: -100;
+  border-radius: 31px;
+  background-color: white;
+}
+
+.register-heading {
+  font: normal normal bold 30px/74px "Sofia pro", sans-serif;
+  text-align: center;
+  color: #3f9fa1;
+  margin-top: 6%;
+}
+.field-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 7% !important;
+}
+
+.field-placeholder::placeholder {
+  font-size: 18px;
+  color: #a4a5a8;
+  font-family: "Sofia pro", sans-serif;
+  padding-left: 20px;
+}
+
+.allfield {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+}
+.button-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 7% !important;
+}
+
+.register-btn {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+  background-color: #3f9fa1;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: "Sofia pro", sans-serif;
+}
+
+.register-page-text {
+  margin: 2% 0% 0% 25%;
+}
+.register-login {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+/* location-components  */
+
+.location-page {
+  height: 100vh;
+  width: 98.7vw;
+}
+
+.location-page-header {
+  height: 8vh;
+  width: 100%;
+  background-color: #fcffff;
+  box-shadow: 0px 3px 6px #3f9fa129;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-logo1 {
+  height: 4.2vh;
+  width: 9vw;
+  position: absolute;
+  margin: 13.87px 0% 0% 35px;
+  background-image: url(utosia-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-logo2 {
+  height: 4.2vh;
+  width: 2vw;
+  position: absolute;
+  margin: 1% 0% 0% 94.5%;
+}
+.locations-data-div {
+  height: 134.79vh;
+  width: 96vw;
+  background-color: #a4a5a8;
+  margin: auto;
+}
+.choose-location-text-div {
+  height: 11vh;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+}
+.choose-location-text {
+  height: 4vh;
+  width: 20vw;
+  position: absolute;
+  font: normal normal bold 24px sans-serif;
+  margin-left: 3%;
+}
+.locations-outer-div {
+  height: 30.13vh;
+  background-color: darksalmon;
+}
+.locations-inner-div {
+  height: 30.13vh;
+  width: 96%;
+  margin: auto;
+  background-color: rgb(238, 254, 132);
+}
+.image-shape {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.next-btn {
+  position: absolute;
+  height: 7vh;
+  width: 4vw;
+  background-color: rgb(195, 154, 233);
+  margin: 7% 0% 0% 93%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.previous-btn {
+  position: absolute;
+  height: 7vh;
+  width: 4vw;
+  background-color: rgb(195, 154, 233);
+  margin: 7% 0% 0% -2%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.carousel-control-prev {
+  width: 89%;
+}
+.carousel-control-next {
+  width: 89%;
+}
+.place-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.image-div {
+  height: 30vh;
+  width: 27vh;
+  background-color: lightgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.davangere {
+  margin-left: 20%;
+}
+.tumakuru {
+  margin-left: 40%;
+}
+
+/* payment page */
+.payment {
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  height: 45.02vh;
+  width: 27.94vw;
+}
+
+.pay-btn {
+  font-family: "Sofia pro", sans-serif !important;
+  background-color: #0b8587 !important;
+}
+.payment-text-div {
+  height: 2.9vh;
+  width: 25.5vw;
+}
+.pay-text {
+  position: absolute;
+  height: 6.5%;
+  width: 6vw;
+  display: inline;
+  margin-left: -46%;
+  font-size: 15px;
+  font-weight: 600;
+}
+.close-btn-div {
+  position: absolute;
+  height: 6.5%;
+  width: 1.5vw;
+  display: inline;
+  margin-left: 40.5%;
+  border-radius: 50%;
+  border: 1px solid #a1a7b0;
+}
+.pay-select-div {
+  height: 21vh;
+}
+#upi-text {
+  height: 2vh;
+  width: 7vw;
+  color: #45b0b2;
+  position: absolute;
+  margin-top: 1.2rem;
+  margin-left: 0.8rem;
+  font-size: 1.4vh;
+  font-weight: 600;
+}
+.g-pay-div {
+  position: absolute;
+  height: 10%;
+  width: 85%;
+  margin: 14% auto auto 7% !important;
+  border: 1px solid #bab8b8;
+  border-radius: 6px;
+}
+.pay-div:hover {
+  border: 1px solid #000;
+}
+.pay-div:c {
+  border: 1px solid #00f;
+}
+.phone-pay-div {
+  position: absolute;
+  height: 10%;
+  width: 85% !important;
+  margin: 26% auto auto 7% !important;
+  border: 1px solid #bab8b8;
+  border-radius: 6px;
+}
+
+.pay-logo-div {
+  position: absolute;
+  height: 90%;
+  width: 10%;
+  margin: auto;
+  margin-top: 0.5%;
+  margin-left: 1% !important;
+  border-radius: 50%;
+}
+.pay-lable {
+  position: absolute;
+  font-size: small;
+  font-weight: 700;
+  margin-top: 1.7%;
+  margin-left: -37%;
+}
+.pay-check-box {
+  position: absolute;
+  height: 50%;
+  width: 5%;
+  margin: auto;
+  margin-top: 2.6%;
+  margin-left: 92% !important;
+  border-radius: 50%;
+  background-color: #a1a7b0;
+}
+.pay-check-box:hover {
+  background-color: #000;
+}
+.bi-check2 {
+  margin-top: -5px;
+  color: white;
+}
+.add-upi-div {
+  height: 5.05rem;
+}
+.add-upi {
+  position: absolute;
+  height: 10%;
+  width: 85%;
+  margin: 9.5% auto auto 7% !important;
+  border: 1px solid #3f9fa1;
+  border-radius: 6px;
+  padding-top: 2%;
+  font-size: 10px;
+  font-weight: 700;
+  color: #3f9fa1;
+}
+#upi-add {
+  height: 2vh;
+  width: 7vw;
+  color: #45b0b2;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+  font-size: 1.4vh;
+  font-weight: 600;
+}
+
+/* payment-status-page */
+.payment-status-text {
+  font-size: 1.4rem;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: bold;
+}
+.payment-status-btn {
+  font-family: "Sofia pro", sans-serif !important;
+  background-color: #0b8587 !important;
+}
+.payment-status-animation-box {
+  height: 8.5vh;
+  width: 4.4vw;
+  background-color: #a1a7b0;
+  border-radius: 50%;
+  margin: 15% 0% 0% 38%;
+}
+.card {
+  box-shadow: 0px 0px 4px;
+}
+
+.mybooking-div {
+  height: 18rem;
+  border-bottom: 1px solid lightgray;
+}
+h3 {
+  font-weight: 500;
+}
+.booking-card {
+  display: inline-block;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  margin: 0% 0% 0% 10%;
+}
+.booking-card-btn {
+  width: 100%;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #064d4f;
+  background-color: #07595b;
+  color: white;
+}
+
+.card-outer-div {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px !important;
+  width: 100%;
+  height: 12rem;
+}
+
+.card-outer-div01 {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 280px !important;
+  width: 100%;
+  height: 12rem;
+}
+
+.card-outer-div02 {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 493px !important;
+  width: 100%;
+  height: 12rem;
+}
+
+.history-card-btn {
+  width: 100%;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #AEAEAE;
+  background-color: #AEAEAE;
+  color: #707070;
+  font-weight: 600;
+}
+
+.history-div{
+height: 45rem;
+}
